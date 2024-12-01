@@ -1,0 +1,15 @@
+1.) Item: Fender American Ultra II Stratocaster HSS Electric Guitar - Ultraburst, Ebony Fingerboard
+    Description: Solidbody Electric Guitar with Alder Body, Maple Neck, Ebony Fingerboard,
+                 Synchronized Tremolo, 2 Single-coil Pickups, and 1 Humbucking Pickup - Ultraburst
+    Price: $2,100  
+
+2.) Item: Gibson Les Paul Standard '60s Custom Shop Top Electric Guitar with Sugarbucker 
+          Pickups - Tobacco Burst, HighNote Exclusive
+    Description: Solidbody Electric Guitar with Mahogany Body, Maple Top, Mahogany Neck, Rosewood 
+                 Fingerboard, and 2 Sugarbucker Humbucking Pickups - Tobacco Burst
+    Price: $3,100
+
+3.) Item: PRS Silver Sky Electric Guitar - Faded Black Tee with Rosewood Fingerboard
+    Description: Solidbody Electric Guitar with Alder Body, Maple Neck, Rosewood Fingerboard, and 3 
+                 Single-coil Pickups - Faded Black Tee
+    Price: $2,500  

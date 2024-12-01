@@ -1,0 +1,16 @@
+1.) Item: Fender American Professional II Precision Bass
+    Description: 4-string Electric Bass with Alder Body, Maple Neck, Rosewood Fingerboard, and 1       
+                 Split-coil Pickup - 3-color Sunburst
+    Price: $1,600
+	
+2.) Item: Squier Paranormal Rascal Bass 
+    Description: 4-string Electric Bass with Poplar Body, Maple Neck, Laurel Fingerboard, and 2   
+                 Humbucking Pickups - Sherwood Green
+    Price: $350
+
+3.) Item: Spector USA NS-2 Bass Guitar
+    Description: 4-string Electric Bass with Ash Body, Maple Neck, Pau Ferro Fingerboard, and 2 
+                 Active Pickups - Nightshade, HighNote Music Exclusive
+    Price: 5,700
+
+

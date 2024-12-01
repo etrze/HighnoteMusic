@@ -1,0 +1,14 @@
+1.) Item: Taylor K24ce Builder's Edition - Kona Burst
+    Description: 6-string Acoustic-electric Guitar with Koa Top, Koa Back and Sides, Mahogany Neck,
+                 and Ebony Fingerboard - Kona Burst
+    Price: $6,300  
+
+2.) Item: Martin D-28E Modern Deluxe Acoustic-electric Guitar - Natural
+    Description: 6-string Acoustic-electric Guitar with Spruce Top, Rosewood Back and Sides, 
+                 Mahogany Neck, and Ebony Fingerboard - Natural
+    Price: $4,500
+
+3.) Item: Gibson Acoustic 1942 Banner J-45 Acoustic Guitar - Vintage Sunburst VOS
+    Description: 6-string Acoustic Guitar with Red Spruce Top, Mahogany Back and Sides, Mahogany
+                 Neck, a Rosewood Fingerboard - Vintage Sunburst
+    Price: $4,500     
