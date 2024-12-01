@@ -1,0 +1,124 @@
+* { box-sizing: border-box; }
+
+body {
+	background-color: #78dbff;
+	
+}
+
+header {
+	font-family: Georgia;
+	text-indent: 4em;
+	background-color: #FFFFFF;
+	border: 5px solid #000000;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height: 250px;
+	text-align: right;
+	font-size: 250%;
+}
+#heading {
+	text-align: center;
+	font-family: Verdana;
+}
+
+nav {
+	background-color: #012b3b;
+	text-align: right;
+	padding: 10px 20px;
+	font-weight: bold;
+	border: 5px solid #03fcb6;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	letter-spacing: .25em;
+#	position: fixed;
+	
+}
+nav a { 
+	text-decoration: none;
+	color: #03fcb6;
+	font-family: Verdana;
+
+}
+
+#wrapper { 
+	background-color: #03bafc;
+	width: 90%; margin: auto;
+	min-width: 960px;
+	max-width: 1900px;
+	box-shadow: 4px 4px 4px 3px #333;
+	border-radius: 15px;
+}
+#intro {
+	font-family: Verdana;
+	font-size: large;
+	text-align: center;
+}
+
+.div1 {
+	background-image: url(images/home/noteLogo1.png);
+	background-repeat: no-repeat;
+	width: 36%;
+	height: 75%;
+	border-radius: 30px;
+}
+.div2 {
+	
+	margin: 10px 10px 10px 10px;
+	border-radius: 15px;
+	border: 3px ridge #000000;	
+}
+#div2 {
+	font-size: larger;
+	text-align: center;
+	font-weight: bold;
+}
+
+.div3 {
+	font-family: Verdana;
+	text-align: center;
+	font-size: large;
+}
+
+#table {
+	
+}
+fieldset { 
+	width: 700px; border: 4px ridge #03fcb6;
+	font-family: Arial; padding: 10px; font-weight: bold;
+}
+label {
+	font-family: Arial; font-weight: bold;
+}
+input[type="submit"] { background-color: #03fcb6; font-weight: bold; }
+input[type="reset"]  { background-color: #03fcb6; font-weight: bold; }
+#div4 {
+	margin-left: 5em;
+	margin-bottom: 
+}
+
+#gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#gallery a {
+	text-decoration: none;
+	color: #012b3b;
+}
+#gallery a:hover {
+	color: #03fcb6;
+}
+img {
+	margin: 1em;
+	box-shadow: 10px 10px 10px #000;
+	border-radius: 10px;
+}
+h2 {
+	text-decoration: none;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
