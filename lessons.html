@@ -12,8 +12,11 @@
 <body>
 	<div id="wrapper">
 		<header>
-			HighNote Music
-			<div class="div1"></div>
+			<div class="div1">
+				<div class="header">
+					HighNote
+				</div>
+			</div>
 		</header>
 		<nav>
 			<a href="index.html">Home</a> &nbsp;
@@ -23,9 +26,9 @@
 		</nav>
 	
 			<main>
-				<h2>Choose one of our well trained teachers and schedule lessons today!</h2>
+				<h1 id="heading">Choose one of our well trained teachers and schedule lessons today!</h1>
 				<div class="div3">
-				<p>
+				<p id="intro">
 					If you're a new student looking to start playing or a seasoned guitarist
 					looking to hone your skills and learn new techniques, we currently have 
 					three classicaly trained musicians well versed in different styles of playing.
@@ -36,15 +39,16 @@
 				</div>
 				
 				<div id="gallery">
-					<img src="images/Lessons/bassTeacher.png" width="200" height="200" alt="Bass Teacher">
-					<img src="images/Lessons/classicalTeacher.jpg" width="150" height="200" alt="Classical Teacher">
-					<img src="images/Lessons/jazzTeacher.png" width="200" height="200" alt="Jazz/Rock Teacher">
+					<a href="inventoryBass.html"><h4>Kim Deal - Bass - Punk/Rock</h4><img src="images/Lessons/bassTeacher.png" width="200" height="200" alt="Bass Teacher"></a>
+					<a href="inventoryClassical.html"><h4>Joni Mitchell - Guitar - Folk/Classical</h4><img src="images/Lessons/classicalTeacher.jpg" width="150" height="200" alt="Classical Teacher"></a>
+					<a href="inventoryElectric.html"><h4>Frank Black - Guitar - Punk/Rock</h4><img src="images/Lessons/jazzTeacher.png" width="200" height="200" alt="Jazz/Rock Teacher"></a>
 				</div>
-				
+					
+				<br><br><br>
 				<table>
-					<th colspan="7">Teacher Availablilty</th>
+					<th colspan="8">Teacher Availablilty</th>
 					<tr>
-						<th colspan="1"></th>
+						<th colspan="1">TIME</th>
 						<th>Sunday</th>
 						<th>Monday</th>
 						<th>Tuesday</th>
@@ -55,99 +59,116 @@
 					</tr>
 					<tr>
 						<th>12p - 1p</th>
-						<td></td>
-						<td></td> 
-						<td></td>
-						<td></td>
-						<td></td>    
+						<td>Closed</td>
+						<td>KD</td> 
+						<td id="open">OPEN TIME</td>
+						<td id="open">OPEN TIME</td>
+						<td>JM</td>
+						<td id="open">OPEN TIME</td>
+						<td>FB</td>
 					</tr>
 					<tr>
 						<th>1p - 2p</th>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td> 
+						<td>Closed</td>
+						<td>JM</td>
+						<td>KD</td>
+						<td id="open">OPEN TIME</td>
+						<td>FB</td>
+						<td>KD</td>
+						<td id="open">OPEN TIME</td>
 					</tr>
 					<tr>
 						<th>2p - 3p</th>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td> 
+						<td>Closed</td>
+						<td id="open">OPEN TIME</td>
+						<td>FB</td>
+						<td>KD</td>
+						<td id="open">OPEN TIME</td>
+						<td>JM</td>
+						<td>JM</td>
 					</tr>
 					<tr>
 						<th>3p - 4p</th>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td> 
+						<td>Closed</td>
+						<td>JM</td>
+						<td id="open">OPEN TIME</td>
+						<td>FB</td>
+						<td id="open">OPEN TIME</td>
+						<td>KD</td>
+						<td id="open">OPEN TIME</td>
 					</tr>
 					<tr>
 						<th>4p - 5p</th>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td> 
+						<td>Closed</td>
+						<td id="open">OPEN TIME</td>
+						<td>FB</td>
+						<td>JM</td>
+						<td>KD</td>
+						<td id="open">OPEN TIME</td>
+						<td>KD</td>
 					</tr>
 					<tr>
 						<th>5p - 6p</th>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td> 
+						<td>Closed</td>
+						<td>KD</td>
+						<td>KD</td>
+						<td>FB</td>
+						<td>JM</td>
+						<td id="open">OPEN TIME</td>
+						<td>JM</td>
 					</tr>
 					<tr>
 						<th>6p - 7p</th>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td> 
+						<td>Closed</td>
+						<td>FB</td>
+						<td id="open">OPEN TIME</td>
+						<td>FB</td>
+						<td id="open">OPEN TIME</td>
+						<td>JM</td>
+						<td>KD</td>
 					</tr>
 				</table>
-	<div id="div4">			
-	<h1>Sign Up for Lessons Today!</h1>
-		<form method="get" id="form">
-			<label>Name: <input type="text" name="name" id="name" required="required"></label><br><br>
-			<label>E-mail: <input type="text" name="email" id="email"></label><br><br>
-			<fieldset>
-			<legend><strong>Time/Teacher Preferences</strong></legend>
-			<label>Select Day: 
-				<input type="checkbox" name="monday" id="monday" value="MON">Monday
-				<input type="checkbox" name="tuesday" id="tuesday" value="TUES">Tuesday
-				<input type="checkbox" name="wednesday" id="wednesday" value="WED">Wednesday
-				<input type="checkbox" name="thursday" id="thursday" value="THURS">Thursday
-				<input type="checkbox" name="friday" id="friday" value="FRI">Friday
-				<input type="checkbox" name="saturday" id="saturday" value="SAT">Saturday
-			</label>
-				<br><br>
-			<label>Select Time:
-				<input type="checkbox" name="time1" id="timeslot1" value="12PM-1PM">12p - 1p
-				<input type="checkbox" name="time2" id="timeslot2" value="1PM-2PM">1p - 2p
-				<input type="checkbox" name="time3" id="timeslot3" value="2PM-3PM">2p - 3p
-				<input type="checkbox" name="time4" id="timeslot4" value="3PM-4PM">3p - 4p
-				<input type="checkbox" name="time5" id="timeslot5" value="4PM-5PM">4p - 5p
-				<input type="checkbox" name="time6" id="timeslot6" value="5PM-6PM">5p - 6p
-				<input type="checkbox" name="time7" id="timeslot7" value="6PM-7PM">6p - 7p
-			</label>
-				<br><br>
-			<label>Select Teacher:
-				<input type="radio" name="teacher" id="KD" value="KD">Kim Deal
-				<input type="radio" name="teacher" id="JM" value="JM">Joni Mitchell
-				<input type="radio" name="teacher" id="FB" value="FB">Frank Black
-			</label>
-			</fieldset>
-				<br>
-			<input type="submit" value="Submit" id="submit">
-			<input type="reset">
-			<br><br><br><br>
-		</form>
-	</div>		
+
+				<br><br><br>
+				<h1 id="heading">Sign Up for Lessons here!</h1>
+				<div id="form-container">			
+						<form method="get" id="form">
+							<label>Name: <input type="text" name="name" id="name" required="required"></label><br><br>
+							<label>E-mail: <input type="text" name="email" id="email"></label><br><br>
+							<fieldset>
+							<legend><strong>Time/Teacher Preferences</strong></legend>
+							<label>Select Day: 
+								<input type="checkbox" name="monday" id="monday" value="MON">Monday
+								<input type="checkbox" name="tuesday" id="tuesday" value="TUES">Tuesday
+								<input type="checkbox" name="wednesday" id="wednesday" value="WED">Wednesday
+								<input type="checkbox" name="thursday" id="thursday" value="THURS">Thursday
+								<input type="checkbox" name="friday" id="friday" value="FRI">Friday
+								<input type="checkbox" name="saturday" id="saturday" value="SAT">Saturday
+							</label>
+								<br><br>
+							<label>Select Time:
+								<input type="checkbox" name="time1" id="timeslot1" value="12PM-1PM">12p - 1p
+								<input type="checkbox" name="time2" id="timeslot2" value="1PM-2PM">1p - 2p
+								<input type="checkbox" name="time3" id="timeslot3" value="2PM-3PM">2p - 3p
+								<input type="checkbox" name="time4" id="timeslot4" value="3PM-4PM">3p - 4p
+								<input type="checkbox" name="time5" id="timeslot5" value="4PM-5PM">4p - 5p
+								<input type="checkbox" name="time6" id="timeslot6" value="5PM-6PM">5p - 6p
+								<input type="checkbox" name="time7" id="timeslot7" value="6PM-7PM">6p - 7p
+							</label>
+								<br><br>
+							<label>Select Teacher:
+								<input type="radio" name="teacher" id="KD" value="Kim Deal">Kim Deal
+								<input type="radio" name="teacher" id="JM" value="Joni Mitchell">Joni Mitchell
+								<input type="radio" name="teacher" id="FB" value="Frank Black">Frank Black
+							</label>
+							</fieldset>
+								<br>
+							<input type="submit" value="Submit" id="submit">
+							<input type="reset">
+							<br><br><br><br>
+						</form>
+					<div id="formData"></div>
+				</div>		
 			</main>
 	</div>	
 </body>

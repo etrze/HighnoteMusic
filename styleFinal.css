@@ -5,33 +5,15 @@ body {
 	
 }
 
-header {
-	font-family: Georgia;
-	text-indent: 4em;
-	background-color: #FFFFFF;
-	border: 5px solid #000000;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	height: 250px;
-	text-align: right;
-	font-size: 250%;
-}
-#heading {
-	text-align: center;
-	font-family: Verdana;
-}
-
 nav {
 	background-color: #012b3b;
 	text-align: right;
 	padding: 10px 20px;
 	font-weight: bold;
-	border: 5px solid #03fcb6;
+	border: 5px ridge #03fcb6;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	letter-spacing: .25em;
-#	position: fixed;
-	
+	letter-spacing: .25em;	
 }
 nav a { 
 	text-decoration: none;
@@ -39,38 +21,91 @@ nav a {
 	font-family: Verdana;
 
 }
+nav a:hover {
+	color: #78dbff;
+}
 
 #wrapper { 
 	background-color: #03bafc;
 	width: 90%; margin: auto;
 	min-width: 960px;
-	max-width: 1900px;
+	max-width: 1300px;
 	box-shadow: 4px 4px 4px 3px #333;
 	border-radius: 15px;
 }
 #intro {
 	font-family: Verdana;
-	font-size: large;
+	font-size: larger;
 	text-align: center;
+	width: auto;
+	padding: 20px 20px 20px 20px;
+	background-color: #03fcb6;
+	border-radius: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .div1 {
 	background-image: url(images/home/noteLogo1.png);
 	background-repeat: no-repeat;
 	width: 36%;
-	height: 75%;
+	height: 100%;
 	border-radius: 30px;
 }
+header {
+	font-family: Georgia;
+	text-indent: 2em;
+	background-color: #FFFFFF;
+	border: 5px ridge #000000;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height: 200px;
+	text-align: left;
+	font-size: 400%;
+	background-image: linear-gradient(to right, #FFFFFF, #03fcb6);
+}
+#heading {
+	text-align: center;
+	font-family: Verdana;
+}
+.header {
+	font-weight: bolder;
+}
+
 .div2 {
-	
-	margin: 10px 10px 10px 10px;
+	display: flex;
+	margin: 10px 30px 10px 30px;
 	border-radius: 15px;
-	border: 3px ridge #000000;	
+	border: 3px ridge #03fcb6;;	
 }
 #div2 {
 	font-size: larger;
 	text-align: center;
 	font-weight: bold;
+	font-size: 200%;
+}
+ul {
+	width: 350px;
+	text-align: left;
+	font-size: 170%;
+	margin-left: 4em;
+	padding: 5px 5px 5px 5px;
+	background-color: #78dbff;
+	border-radius: 15px;
+
+}
+ul a {
+	text-decoration: none;
+	color: #000000;
+}
+ul a:hover {
+	color: #03fcb6;
+}
+#invGuitar {
+	border: 3px ridge #03fcb6;
+	width: 600px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px #000;
 }
 
 .div3 {
@@ -79,9 +114,47 @@ nav a {
 	font-size: large;
 }
 
-#table {
-	
+.invimage {
+	display: flex;
+	justify-content: center;
 }
+.invtext {
+	font-family: Verdana;
+	font-size: large;
+}
+
+table {
+	width: 75%; margin: auto;
+	padding: 20px 20px 20px 20px;
+	border: 10px ridge #03fcb6;
+	background-color: #78dbff;
+}
+td, th {
+	border: 1px solid #000066;
+	font-family: Arial;
+	text-align: center;
+}
+#open {
+	color: rgb(1, 165, 1);
+	font-weight: bold;
+}
+
+#formData {
+	width: 45%; 
+	padding: 10px;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+#form-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 10px 10px 10px;
+}
+#form {
+	width: 45%;
+}
+
 fieldset { 
 	width: 700px; border: 4px ridge #03fcb6;
 	font-family: Arial; padding: 10px; font-weight: bold;
@@ -91,20 +164,21 @@ label {
 }
 input[type="submit"] { background-color: #03fcb6; font-weight: bold; }
 input[type="reset"]  { background-color: #03fcb6; font-weight: bold; }
-#div4 {
-	margin-left: 5em;
-	margin-bottom: 
-}
 
 #gallery {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	border: 5px ridge #03fcb6;
+	border-radius: 15px;
+	margin: 3px 8px 3px 8px;
+	background-color: #012b3b;
+	text-align: center;
 }
 #gallery a {
 	text-decoration: none;
-	color: #012b3b;
+	color: #000000;
 }
 #gallery a:hover {
 	color: #03fcb6;
@@ -119,6 +193,7 @@ h2 {
 	text-align: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 
 
